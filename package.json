@@ -1,6 +1,13 @@
 {
+  "name": "jsparser",
+  "version": "0.1.0",
+  "description": "JavaScript parser for differential analysis",
+  "main": "jsparser",
+  "bin": {
+    "jsparser": "./jsparser"
+  },
   "dependencies": {
-    "acorn": "^8.7.0",
+    "acorn": "^8.14.1",
     "dash-ast": "^2.0.1",
     "xml-writer": "^1.7.0"
   }
